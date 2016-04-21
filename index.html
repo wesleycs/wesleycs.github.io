@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	
 	<head>
 			<meta charset="utf-8">
 			<title> Wesley Csendom </title>
-			<script type="text/javascript" src="path/to/instafeed.min.js"></script>
 	</head>
 
 	<body>
-		<script type="text/javascript">
-			fvar feed = new Instafeed({
-				clientId: '22d742d815a54779a697224f1b2b01d8'
-
-			});
-			feed.run();
-		</script>
 	
+		<script type="text/javascript" src="js/instafeed.min.js"></script>
 
+		<script type="text/javascript">
+			var userFeed = new Instafeed({
+			get: 'user',
+			userId: 30797346,
+			accessToken: '30797346.ab103e5.ca722a923c3547ccb3687b53192e1677',
+			});
+			userFeed.run();
+		</script>
 	</body>
 
 </html>
