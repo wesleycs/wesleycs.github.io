@@ -107,6 +107,7 @@ p {
 
 .span-splat:hover {
     cursor: pointer;
+    background: yellow;
 }
 .strip-href {
     text-decoration: none;
