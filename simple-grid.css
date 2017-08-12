@@ -30,10 +30,12 @@ body {
 
 h1 {
   font-size: 2.5rem;
+  font-weight: normal;
 }
 
 h2 {
   font-size: 2rem;
+  
 }
 
 h3 {
@@ -110,12 +112,15 @@ p {
     background: yellow;
 }
 .strip-href {
-    text-decoration: none;
     color: black;
 }
 
 #about {
     visibility: hidden;
+}
+
+#splat {
+    color: blue;
 }
 
 .dropdown:hover .dropdown-content {
