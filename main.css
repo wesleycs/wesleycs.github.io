@@ -31,9 +31,14 @@ html, body {
     color: blue;
 }
 
-.boldunderline {
+.boldmail {
     font-weight: 600;
-    text-decoration: underline;
+    color: blue;
+}
+
+.bold {
+    font-weight: 600;
+    /*text-decoration: underline;*/
     color: blue;
 }
 
