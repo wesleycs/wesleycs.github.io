@@ -37,7 +37,7 @@ html, body {
     margin-right: auto;
     width: 77%;
     height: 200px;
-    padding-bottom: 10%;
+    padding-bottom: 25%;
 }
 
 .boldmail {
@@ -56,6 +56,10 @@ html, body {
     color: blue;
 }
 
+.video {
+    padding-bottom: 10%;
+}
+
 .projecttitle {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 200;
@@ -63,6 +67,7 @@ html, body {
     font-size: 18px;
     color: blue;
     line-height: 0px;
+    padding-bottom: 5%;
 }
 
 .description {
@@ -73,6 +78,13 @@ html, body {
     color: blue;
     padding-bottom: 5%;
     font-style: italic;
+}
+
+.pixl {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: auto;
 }
 
 @media only screen and (min-width: 33.75em) {
@@ -99,8 +111,9 @@ html, body {
         font-size: 15px;
     }
     .projects {
-        width: 42%;
-        height: 300px;
+        width: 90%;
+        height: 600px;
+        padding-bottom: 15%;
         margin-left: auto;
         margin-right: auto;
     }
