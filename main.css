@@ -21,6 +21,7 @@ html, body {
     width: 77%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 70%;
 }
 
 .content p {
@@ -32,10 +33,11 @@ html, body {
 }
 
 .projects {
-    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40%;
+    width: 77%;
+    height: 200px;
+    padding-bottom: 10%;
 }
 
 .boldmail {
@@ -54,10 +56,27 @@ html, body {
     color: blue;
 }
 
+.projecttitle {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    line-height: 30px;
+    font-size: 18px;
+    color: blue;
+    line-height: 0px;
+}
+
+.description {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    line-height: 0px;
+    font-size: 14px;
+    color: blue;
+    padding-bottom: 5%;
+    font-style: italic;
+}
 
 @media only screen and (min-width: 33.75em) {
     /* 540px */
-
 }
 
 @media only screen and (min-width: 45em) {
@@ -71,12 +90,18 @@ html, body {
         padding-top: 25%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 0%;
+        padding-bottom: 30%;
     }
     .content p {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 200;
         line-height: 25px;
         font-size: 15px;
+    }
+    .projects {
+        width: 42%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
