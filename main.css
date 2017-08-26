@@ -31,6 +31,13 @@ html, body {
     color: blue;
 }
 
+.projects {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+}
+
 .boldmail {
     font-weight: 600;
     color: blue;
@@ -64,6 +71,7 @@ html, body {
         padding-top: 25%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 0%;
     }
     .content p {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
