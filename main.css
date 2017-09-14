@@ -21,7 +21,7 @@ html, body {
     width: 77%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 56%;
+    padding-bottom: 15%;
 }
 
 .content p {
@@ -120,7 +120,7 @@ html, body {
         padding-top: 200px;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 21%;
+        padding-bottom: 10%;
     }
     .content p {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
