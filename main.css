@@ -117,10 +117,10 @@ html, body {
     /* 960px */
     .content {
         width: 42%;
-        padding-top: 25%;
+        padding-top: 200px;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 27%;
+        padding-bottom: 25%;
     }
     .content p {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
