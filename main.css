@@ -117,7 +117,7 @@ html, body {
 
 @media only screen and (min-width: 60em) {
     /* 960px */
-    .content {
+/*    .content {
         width: 42%;
         padding-top: 200px;
         margin-left: auto;
@@ -137,4 +137,6 @@ html, body {
         margin-left: auto;
         margin-right: auto;
     }
+*/
+
 }
