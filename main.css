@@ -24,6 +24,7 @@ html, body {
 	height: 100vh;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .content p {
@@ -32,6 +33,7 @@ html, body {
     line-height: 30px;
     font-size: 18px;
     color: blue;
+	max-width: 765px;
 }
 
 .projects {
