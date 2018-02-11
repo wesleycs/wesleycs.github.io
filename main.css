@@ -109,6 +109,12 @@ html, body {
     margin: auto;
 }
 
+.sheas {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: auto;
+}
 @media only screen and (min-width: 33.75em) {
     /* 540px */
 }
